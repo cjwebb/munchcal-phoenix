@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :munchcal, Munchcal.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [host: "munchcal.com", port: 80],
+  url: [host: System.get_env("HOSTNAME"), port: 80],
   root: ".",
   cache_static_manifest: "priv/static/manifest.json",
   server: true
