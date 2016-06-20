@@ -19,8 +19,9 @@ defmodule Munchcal.Router do
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", Munchcal do
-  #   pipe_through :api
-  # end
+  scope "/api", Munchcal do
+    pipe_through :api
+
+    resources "/recipes", RecipeController
+  end
 end

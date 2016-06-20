@@ -1,0 +1,10 @@
+insert into recipes (name, inserted_at, updated_at) values ('Spaghetti Carbonara','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Salmon Pasta','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Salmon and Veg','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Chicken and Veg','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Chicken Casserole','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Burgers and Coleslaw','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Sausage Pasta','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Sausage and Mash','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Beef Stir Fry','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');
+insert into recipes (name, inserted_at, updated_at) values ('Pork Stir Fry','2016-06-20T08:00:00Z','2016-06-20T08:00:00Z');

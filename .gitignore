@@ -17,6 +17,7 @@ erl_crash.dump
 # we ignore priv/static. You may want to comment
 # this depending on your deployment strategy.
 /priv/static/
+/web/static/
 
 # Elm artifacts
 /web/elm/elm-stuff/build-artifacts

@@ -1,7 +1,13 @@
 module App exposing (..) 
 
-import Html
+import Html exposing (..)
+import Html.Attributes exposing (..)
 
 main =
-  Html.text "Hello from Elm"
+  div [ class "container" ]
+    [ div [ class "page-header" ]
+      [ h1 [] [ text "Header" ]
+      ]
+    , p [] [ text "Hello from Elm" ]
+    ]
 
